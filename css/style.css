@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* login page start */
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 55px;
+	font-weight: 200;
+    margin-left: -300px;
+    margin-top: -21px;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+button a{
+    text-decoration: none;
+    color: #000;
+}
+button a:hover{
+    color: #ffff;
+}
+/* Login page End */
+/* user_desboard Page start */
+a h2{
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    background-color: #000;
+    color: #ffff;
+    margin-top: 5px;
+}
+.ox{
+    display: flex;
+    margin-left: 440px;
+}
+.aox{
+    display: flex;
+    margin-left: 320px;
+}
+
+.ox1{
+    height: 135px;
+    width: 350px;
+    background: #0000007a;
+    border-radius: 10px;
+    margin-left: -13px;
+    margin-top: 10px;
+}
+h3{
+    padding: 10px;
+    color: rgb(247, 247, 247);
+}
+.ox2{
+    height: 135px;
+    width: 350px;
+    background: #88bed37a;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.ox2 h3{
+    color: #000;
+}
+button{
+    margin-top: 20%;
+}
+.ap{
+    height: 40px;
+    width: 220px;
+    background-color: yellow;
+    border-radius: 20px;
+    margin-left: 45%;
+    margin-top: 30px;
+    transition: .3s;
+}
+.ap a{
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+    color:#000;
+    transition: .3s;
+    padding-left: 86px;
+}
+.ap:hover{
+    background-color: red;
+}
+.ap a:hover{
+    color: green;
+}
+/* user_desboard End */
+/* form page start */
+h2{
+    text-align: center;
+    margin-top: 25px;
+}
+/* form page end */
+/* admin desboard page start */
+a h3{
+    text-decoration: none;
+}
+.ox2:hover{
+    background: rgb(164, 165, 107);
+}
+.sim{
+    font-size: 12px;
+}
+.yes{
+    background: green;
+}
+.yes a{
+    text-decoration: none;
+    color: #000;
+}
+.no{
+    background: red;
+}
+.no a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* admin desboard page end */
